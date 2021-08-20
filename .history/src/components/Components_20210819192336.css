@@ -1,0 +1,17 @@
+.nav {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+.nav-center {
+  width: 85vw;
+  max-width: var(--max-width);
+}
+.navbar{
+    padding-top: 3rem;
+    padding-left: 4rem;
+}

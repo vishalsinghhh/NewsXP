@@ -1,0 +1,15 @@
+.btn{
+    /* Rectangle 1 */
+
+/* position: absolute; */
+width: 60px;
+height: 60px;
+left: 1113px;
+top: 512px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+
+}
