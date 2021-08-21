@@ -123,7 +123,9 @@
   .hero-img{
     width: 45rem;
   }
-
+  .hero-info{
+    min-width: 20rem;
+  }
 }
 @media screen and (max-width: 800px){
   body {
@@ -142,10 +144,9 @@
     position: absolute;
     text-transform: none;
     top: 10rem;
-    right: 3rem;
+    right: 4rem;
     text-align: center;
     min-width: 300px;
-    /* min-height: 800px; */
   }
   .hero-info h1 {
     font-size: 1.8rem;

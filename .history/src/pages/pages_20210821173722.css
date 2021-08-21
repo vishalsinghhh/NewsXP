@@ -119,12 +119,6 @@
   font-weight: 500;
   /* margin-top: -2%; */
 }
-@media screen and (max-width: 1240px){
-  .hero-img{
-    width: 45rem;
-  }
-
-}
 @media screen and (max-width: 800px){
   body {
     overflow-x: hidden;
@@ -142,10 +136,9 @@
     position: absolute;
     text-transform: none;
     top: 10rem;
-    right: 3rem;
+    right: 4rem;
     text-align: center;
     min-width: 300px;
-    /* min-height: 800px; */
   }
   .hero-info h1 {
     font-size: 1.8rem;
@@ -155,9 +148,6 @@
   }
   .news-title{
     font-size: 1.8rem;
-  }
-  .news-info p{
-    font-size: 1rem;
   }
   
 }

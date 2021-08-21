@@ -145,7 +145,7 @@
     right: 3rem;
     text-align: center;
     min-width: 300px;
-    /* min-height: 800px; */
+    min-height: 500px;
   }
   .hero-info h1 {
     font-size: 1.8rem;

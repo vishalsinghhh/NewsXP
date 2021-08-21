@@ -159,5 +159,8 @@
   .news-info p{
     font-size: 1rem;
   }
+  .btn{
+    margin-bottom: 100;
+  }
   
 }

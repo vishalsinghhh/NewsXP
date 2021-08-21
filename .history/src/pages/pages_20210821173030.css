@@ -119,19 +119,7 @@
   font-weight: 500;
   /* margin-top: -2%; */
 }
-@media screen and (max-width: 1240px){
-  .hero-img{
-    width: 45rem;
-  }
-
-}
-@media screen and (max-width: 800px){
-  body {
-    overflow-x: hidden;
-  }
-  .logo{
-    width: 8rem;
-  }
+@media screen and (max-width: 1024px){
   .hero-img{
     position: absolute;
     top: 9%;
@@ -142,22 +130,8 @@
     position: absolute;
     text-transform: none;
     top: 10rem;
-    right: 3rem;
+    right: 4.5rem;
     text-align: center;
-    min-width: 300px;
-    /* min-height: 800px; */
+    margin-bottom: 1000rem;
   }
-  .hero-info h1 {
-    font-size: 1.8rem;
-  }
-  .hero-info p {
-    font-size: 0.9rem;
-  }
-  .news-title{
-    font-size: 1.8rem;
-  }
-  .news-info p{
-    font-size: 1rem;
-  }
-  
 }
