@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-info">
           <p>
-            Created By <span className="vishal">Vishal Singh</span> | &copy; 2021 All rights
+            Created By <span>Vishal Singh</span> | &copy; 2021 All rights
             reserved.
           </p>
         </div>
