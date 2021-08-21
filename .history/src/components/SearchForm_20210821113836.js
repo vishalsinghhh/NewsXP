@@ -1,0 +1,27 @@
+import React from "react";
+import "./Components.css"
+import { useGlobalContext } from "../context";
+
+const SearchForm = () => {
+  const {searchTerm, setSearchTerm } = useGlobalContext();
+  return (
+    <section className="">
+      <div className="days">
+        <div
+          onClick={() => setSearchTerm(1)}
+          className={`job-btn ${ === value && "active-btn"}`}
+        >
+          <p>1 Day</p>
+        </div>
+        <div className="day2" onClick={() => setSearchTerm(7)}>
+          <p>7 Day</p>
+        </div>
+        <div className="day3" onClick={() => setSearchTerm(30)}>
+          <p>30 Day</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SearchForm;
