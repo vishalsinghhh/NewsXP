@@ -8,18 +8,16 @@ const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
   return (
     <article className="section-newslist">
       <header>
-        <h3 className="newstitle">{newstitle}</h3>
+        <h3 className>{newstitle}</h3>
         <button className="btn-newslist" onClick={() => setShowInfo(!showInfo)}>
           {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </header>
       {showInfo && [
         <img src={image} alt="image" className="newslist-img" />,
-        <p className="description">Description :</p>,
         <p>{newsabstract}</p>,
-        <div className="newslist-underline"></div>,
         <p>Date: {date}</p>,
-        <button className="newslist-btn">
+        <button>
           <a href={newsurl} target="_blank">
             Read More
           </a>

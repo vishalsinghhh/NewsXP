@@ -24,6 +24,9 @@ const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
             Read More
           </a>
         </button>,
+        <button onClick="window.location.href='https://w3docs.com';">
+          Click Here
+        </button>,
       ]}
     </article>
   );

@@ -138,6 +138,7 @@ header{
   margin-top: 10px;
   width: 8rem;
   height: 2rem;
+  /* border: black; */
   border-radius: 5px;
   background: #EF929C;
   cursor: pointer;
@@ -146,15 +147,13 @@ header{
   text-decoration: none;
   color: black;
 }
-.newslist-btn:hover{
-  background: #f07581;
-  transition: all 0.5s ease-out;
-}
 .newslist-underline{
-  width: 10rem;
+  width: 2rem;
   height: 0.01rem;
   background: black;
-  margin-top: 2%;
+  margin-top: 20%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 @media screen and (max-width: 1024px){
   .container{

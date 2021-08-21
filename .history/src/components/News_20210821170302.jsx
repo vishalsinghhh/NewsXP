@@ -24,6 +24,9 @@ const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
             Read More
           </a>
         </button>,
+        <button onclick={newsurl} type="button">
+          Read More
+        </button>,
       ]}
     </article>
   );

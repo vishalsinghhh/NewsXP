@@ -24,6 +24,9 @@ const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
             Read More
           </a>
         </button>,
+        <button onclick="location.href='http://www.example.com'" type="button">
+          www.example.com
+        </button>,
       ]}
     </article>
   );

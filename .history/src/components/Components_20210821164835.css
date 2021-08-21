@@ -135,26 +135,7 @@ header{
   font-weight: 500;
 }
 .newslist-btn{
-  margin-top: 10px;
-  width: 8rem;
-  height: 2rem;
-  border-radius: 5px;
-  background: #EF929C;
-  cursor: pointer;
-}
-.newslist-btn a {
-  text-decoration: none;
-  color: black;
-}
-.newslist-btn:hover{
-  background: #f07581;
-  transition: all 0.5s ease-out;
-}
-.newslist-underline{
-  width: 10rem;
-  height: 0.01rem;
-  background: black;
-  margin-top: 2%;
+  
 }
 @media screen and (max-width: 1024px){
   .container{

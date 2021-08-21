@@ -147,8 +147,10 @@ header{
   color: black;
 }
 .newslist-btn:hover{
-  background: #f07581;
-  transition: all 0.5s ease-out;
+  background: #424787;
+}
+.newslist-btn a:hover{
+  color: white;
 }
 .newslist-underline{
   width: 10rem;

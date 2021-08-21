@@ -79,7 +79,7 @@ header{
 .container {
   width: 90vw;
   margin: 5rem auto;
-  /* background: rgb(88, 86, 116); */
+  /* background: rgb(87, 76, 76); */
   border-radius: 0.25rem;
   padding: 2.5rem 2rem;
   max-width: 700px;
@@ -96,8 +96,8 @@ header{
   padding: 1rem 1.5rem;
   border: 2px solid #424787;
   margin-bottom: 1rem;
-  border-radius: 0.25rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
 }
 .section-newslist p {
   /* color: var(--clr-grey-3); */
@@ -127,34 +127,6 @@ header{
 }
 .newslist-img{
   border-radius: 20px;
-}
-.newstitle{
-  font-family: Arial, Helvetica, sans-serif;
-}
-.description{
-  font-weight: 500;
-}
-.newslist-btn{
-  margin-top: 10px;
-  width: 8rem;
-  height: 2rem;
-  border-radius: 5px;
-  background: #EF929C;
-  cursor: pointer;
-}
-.newslist-btn a {
-  text-decoration: none;
-  color: black;
-}
-.newslist-btn:hover{
-  background: #f07581;
-  transition: all 0.5s ease-out;
-}
-.newslist-underline{
-  width: 10rem;
-  height: 0.01rem;
-  background: black;
-  margin-top: 2%;
 }
 @media screen and (max-width: 1024px){
   .container{

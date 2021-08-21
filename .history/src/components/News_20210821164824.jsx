@@ -17,9 +17,8 @@ const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
         <img src={image} alt="image" className="newslist-img" />,
         <p className="description">Description :</p>,
         <p>{newsabstract}</p>,
-        <div className="newslist-underline"></div>,
         <p>Date: {date}</p>,
-        <button className="newslist-btn">
+        <button className="newslist-">
           <a href={newsurl} target="_blank">
             Read More
           </a>
