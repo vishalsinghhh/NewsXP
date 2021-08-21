@@ -112,13 +112,7 @@
   font-style: normal;
   font-weight: 500;
 }
-.footer-info{
-  display: flex;
-  justify-content: center;
-}
-.footer-info p{
-  color: white;
-}
+
 @media screen and (max-width: 1300px){
   .hero-img{
     width: 45rem;

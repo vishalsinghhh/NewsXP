@@ -156,7 +156,11 @@ header{
   background: black;
   margin-top: 2%;
 }
-
+footer-info p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 1024px){
   .container{
     display: flex;

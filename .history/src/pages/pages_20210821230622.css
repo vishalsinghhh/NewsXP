@@ -115,9 +115,7 @@
 .footer-info{
   display: flex;
   justify-content: center;
-}
-.footer-info p{
-  color: white;
+  
 }
 @media screen and (max-width: 1300px){
   .hero-img{

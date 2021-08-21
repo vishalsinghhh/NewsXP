@@ -156,7 +156,9 @@ header{
   background: black;
   margin-top: 2%;
 }
-
+footer-info{
+  display: ;
+}
 @media screen and (max-width: 1024px){
   .container{
     display: flex;
