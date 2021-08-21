@@ -111,18 +111,11 @@
 .time-period{
   font-style: normal;
   font-weight: 500;
+  /* margin-top: -2%; */
 }
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1240px){
   .hero-img{
     width: 45rem;
-  }
-  .hero-info{
-    position: absolute;
-    text-transform: none;
-    top: -5rem;
-    right: 3rem;
-    text-align: center;
-    min-width: 500px;
   }
 
 }
@@ -146,6 +139,7 @@
     right: 3rem;
     text-align: center;
     min-width: 300px;
+    /* min-height: 800px; */
   }
   .hero-info h1 {
     font-size: 1.8rem;

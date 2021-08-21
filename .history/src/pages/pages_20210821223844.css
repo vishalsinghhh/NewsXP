@@ -114,15 +114,10 @@
 }
 @media screen and (max-width: 1300px){
   .hero-img{
-    width: 45rem;
+    width: 43rem;
   }
   .hero-info{
-    position: absolute;
-    text-transform: none;
-    top: -5rem;
-    right: 3rem;
-    text-align: center;
-    min-width: 500px;
+    
   }
 
 }
