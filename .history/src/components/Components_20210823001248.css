@@ -71,7 +71,11 @@ header{
   display: flex;
   flex: 1;
 }
-
+/* .section-newslist{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} */
 .container {
   width: 90vw;
   margin: 5rem auto;

@@ -33,6 +33,7 @@
   align-items: center;
 }
 .hero-img {
+  /* position: relative; */
   z-index: -1;
   margin-top: 10%;
 }

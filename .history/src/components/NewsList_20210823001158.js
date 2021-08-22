@@ -7,6 +7,7 @@ import "./Components.css"
 const NewsList = () => {
   const { news, loading } = useGlobalContext();
   
+
   if (loading) {
     return <Loading />;
   }

@@ -25,6 +25,7 @@
   margin-left: 2rem;
   display: grid;
   grid-template-columns: 1fr;
+  /* justify-items: center; */
 }
 .hero-center {
   width: 90vw;
@@ -33,6 +34,7 @@
   align-items: center;
 }
 .hero-img {
+  /* position: relative; */
   z-index: -1;
   margin-top: 10%;
 }
