@@ -26,11 +26,11 @@ const AppProvider = ({ children }) => {
             date: published_date,
             newstitle: title,
             newsabstract: abstract,
-            by: byline,
-            image: media.map((imgItem) => {
+            by:,
+            image: media.map((imgItem)=>{
               const { "media-metadata": mediaMetaData } = imgItem;
               return mediaMetaData[2].url;
-            }),
+            })
           };
         })
         setNews(newResults)

@@ -30,7 +30,8 @@ const News = ({ image, newsurl, date, newstitle, newsabstract, by }) => {
           <BiCalendar /> {date}
         </p>,
         <p>
-          <BsFillPersonFill /> {by}
+          <BsFillPersonFill />
+          {by}
         </p>,
         <a href={newsurl} target="_blank">
           <button className="newslist-btn">Read more</button>

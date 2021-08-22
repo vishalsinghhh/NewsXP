@@ -18,19 +18,17 @@ const AppProvider = ({ children }) => {
       const { results } = data;
       if (results) {
         const newResults = results.map((item) => {
-          const { id, url, published_date, title, abstract, byline, media } =
-            item;
+          const {id, url, published_date, title, abstract,media } = item;
           return {
             newsid: id,
             newsurl: url,
             date: published_date,
             newstitle: title,
             newsabstract: abstract,
-            by: byline,
-            image: media.map((imgItem) => {
+            image: media.map((imgItem)=>{
               const { "media-metadata": mediaMetaData } = imgItem;
               return mediaMetaData[2].url;
-            }),
+            })
           };
         })
         setNews(newResults)
@@ -39,6 +37,7 @@ const AppProvider = ({ children }) => {
       }
       setLoading(false);
     } catch (error) {
+      console.log(error);
       setLoading(false);
     }
   };

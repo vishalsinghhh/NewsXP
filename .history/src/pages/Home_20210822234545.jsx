@@ -12,7 +12,7 @@ const Home = () => {
   const executeScroll = () => scrollToRef(myRef);
 
   return (
-  
+    lo
     <main>
       <div className="hero">
         <div className="hero-center">

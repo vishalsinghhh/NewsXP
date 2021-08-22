@@ -3,10 +3,9 @@ import { Link } from "react-router-dom";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import AnimateHeight from "react-animate-height";
 import { BiCalendar } from "react-icons/bi";
-import { BsFillPersonFill } from "react-icons/bs";
 import "./Components.css";
 
-const News = ({ image, newsurl, date, newstitle, newsabstract, by }) => {
+const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
   const [showInfo, setShowInfo] = useState(false);
   
   return (
@@ -21,21 +20,23 @@ const News = ({ image, newsurl, date, newstitle, newsabstract, by }) => {
           {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </header>
-      {showInfo && [
-        <img src={image} alt="image" className="newslist-img" />,
-        <p className="description">Description :</p>,
-        <p>{newsabstract}</p>,
-        <div className="newslist-underline"></div>,
-        <p className="date">
-          <BiCalendar /> {date}
-        </p>,
-        <p>
-          <BsFillPersonFill /> {by}
-        </p>,
-        <a href={newsurl} target="_blank">
-          <button className="newslist-btn">Read more</button>
-        </a>,
-      ]}
+      <AnimateHeight
+          id='example-panel'
+          duration={ 500 }
+          height={ height } // see props documentation below
+        >
+        {showInfo && [
+          <img src={image} alt="image" className="newslist-img" />,
+          <p className="description">Description :</p>,
+          <p>{newsabstract}</p>,
+          <div className="newslist-underline"></div>,
+          <p className="date">
+            <BiCalendar /> {date}
+          </p>,
+          <a href={newsurl} target="_blank">
+            <button className="newslist-btn">Read more</button>
+          </a>,
+        ]}
     </article>
   );
 };

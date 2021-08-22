@@ -21,21 +21,19 @@ const News = ({ image, newsurl, date, newstitle, newsabstract, by }) => {
           {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </header>
-      {showInfo && [
-        <img src={image} alt="image" className="newslist-img" />,
-        <p className="description">Description :</p>,
-        <p>{newsabstract}</p>,
-        <div className="newslist-underline"></div>,
-        <p className="date">
-          <BiCalendar /> {date}
-        </p>,
-        <p>
-          <BsFillPersonFill /> {by}
-        </p>,
-        <a href={newsurl} target="_blank">
-          <button className="newslist-btn">Read more</button>
-        </a>,
-      ]}
+        {showInfo && [
+          <img src={image} alt="image" className="newslist-img" />,
+          <p className="description">Description :</p>,
+          <p>{newsabstract}</p>,
+          <div className="newslist-underline"></div>,
+          <p className="date">
+            <BiCalendar /> {date}
+          </p>,
+          <p>{by}</p>,
+          <a href={newsurl} target="_blank">
+            <button className="newslist-btn">Read more</button>
+          </a>,
+        ]}
     </article>
   );
 };

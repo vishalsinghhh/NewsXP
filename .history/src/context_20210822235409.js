@@ -18,7 +18,7 @@ const AppProvider = ({ children }) => {
       const { results } = data;
       if (results) {
         const newResults = results.map((item) => {
-          const { id, url, published_date, title, abstract, byline, media } =
+          const { id, url, published_date, title, abstract, , media } =
             item;
           return {
             newsid: id,
@@ -26,11 +26,11 @@ const AppProvider = ({ children }) => {
             date: published_date,
             newstitle: title,
             newsabstract: abstract,
-            by: byline,
-            image: media.map((imgItem) => {
+            by
+            image: media.map((imgItem)=>{
               const { "media-metadata": mediaMetaData } = imgItem;
               return mediaMetaData[2].url;
-            }),
+            })
           };
         })
         setNews(newResults)
