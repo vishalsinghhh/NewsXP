@@ -8,9 +8,6 @@ Here we have used The New York Times API. https://api.nytimes.com/svc/mostpopula
 Success. Demo link is given below...
 <br/>
 <a href="https://newsxp.netlify.app/" target="_blank">Link</a>
-## Project Screen Shot(s)
-<img src="https://user-images.githubusercontent.com/71393033/130351956-64e9c820-4484-4699-8ec4-40ad473137c6.png" alt="" width="500"/> <img src="https://user-images.githubusercontent.com/71393033/130352064-4a742e48-ccaf-4ab7-931f-cc13440e65f4.png" width="500"/> <img src="https://user-images.githubusercontent.com/71393033/130352148-d226dade-5b2e-4eb2-9122-4d936beec31f.png" width="500"/>
-
 ## Installation and Setup Instructions
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
@@ -28,4 +25,8 @@ To Start Server:
 
 To Visit App:
 
-`localhost:3000`  
+`localhost:3000` 
+## Project Screen Shot(s)
+<img src="https://user-images.githubusercontent.com/71393033/130351956-64e9c820-4484-4699-8ec4-40ad473137c6.png" alt="" width="500"/> <img src="https://user-images.githubusercontent.com/71393033/130352064-4a742e48-ccaf-4ab7-931f-cc13440e65f4.png" width="500"/> <img src="https://user-images.githubusercontent.com/71393033/130352148-d226dade-5b2e-4eb2-9122-4d936beec31f.png" width="500"/>
+
+ 
