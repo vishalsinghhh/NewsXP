@@ -14,7 +14,7 @@ const AppProvider = ({ children }) => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://api.nytimes.com/svc/mostpopular/v2/viewed/${searchTerm}.json?api-key= [YOUR KEY]`
+        `https://api.nytimes.com/svc/mostpopular/v2/viewed/${searchTerm}.json?api-key= []`
       );
       const data = await response.json();
       const { results } = data;
