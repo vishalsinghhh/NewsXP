@@ -19,8 +19,8 @@ const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
         <p className="description">Description :</p>,
         <p>{newsabstract}</p>,
         <div className="newslist-underline"></div>,
-        <p className="date">
-          <BiCalendar/> {date}
+        <p>
+          <BiCalendar /> {date}
         </p>,
         <a href={newsurl} target="_blank">
           <button className="newslist-btn">Read more</button>

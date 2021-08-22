@@ -141,7 +141,6 @@ header{
   border-radius: 5px;
   background: #EF929C;
   cursor: pointer;
-  border: none;
 }
 .newslist-btn a {
   text-decoration: none;
@@ -157,6 +156,7 @@ header{
   background: black;
   margin-top: 2%;
 }
+.date
 @media screen and (max-width: 1024px){
   .container{
     display: flex;

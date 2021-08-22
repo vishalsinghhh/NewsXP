@@ -25,6 +25,7 @@ const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
         <a href={newsurl} target="_blank">
           <button className="newslist-btn">Read more</button>
         </a>,
+        a
       ]}
     </article>
   );

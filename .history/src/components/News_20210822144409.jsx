@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import { BiCalendar } from "react-icons/bi";
 import "./Components.css";
 
 const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
@@ -19,12 +18,16 @@ const News = ({ image, newsurl, date, newstitle, newsabstract }) => {
         <p className="description">Description :</p>,
         <p>{newsabstract}</p>,
         <div className="newslist-underline"></div>,
-        <p className="date">
-          <BiCalendar/> {date}
-        </p>,
-        <a href={newsurl} target="_blank">
+        <p>Date: {date}</p>,
+        <button className="newslist-btn">
+          <a href={newsurl} target="_blank">
+            Read More
+          </a>
+        </button>,
+        <a href={newsurl}>
           <button className="newslist-btn">Read more</button>
         </a>,
+        <button>fvsdfb</button>,
       ]}
     </article>
   );
