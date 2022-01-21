@@ -40,7 +40,7 @@
   position: absolute;
   text-transform: none;
   margin-left: 50rem;
-  margin-top: 16rem;
+  margin-top: 0rem;
   text-align: center;
 }
 .hero-info h1 {
@@ -147,7 +147,7 @@
   .hero-info {
     position: absolute;
     text-transform: none;
-    top: 10rem;
+    top: 28rem;
     right: 3rem;
     text-align: center;
     min-width: 300px;
